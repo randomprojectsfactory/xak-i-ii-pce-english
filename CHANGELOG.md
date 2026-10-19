@@ -1,5 +1,10 @@
 # Changes
 
+## 2026.10.19.3
+
+- Translate equipment-enchantment descriptions and fee confirmations across both games.
+- Clarify the equipment service menu label as “Enchant”.
+
 ## 2026.10.19.2
 
 - Standardise item-acquisition messages as “Item name received.”
