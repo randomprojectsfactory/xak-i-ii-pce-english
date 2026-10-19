@@ -1,0 +1,188 @@
+{
+  "release": "2026.10.19",
+  "game": "Xak I & II",
+  "platform": "PC Engine Super CD-ROM2",
+  "source_format": "29 separate raw2352-byte BIN tracks with an existing CUE",
+  "ordered_raw_tracks_sha256": "dd778ff76546bb84f023c359bccac585dd404e5338945d6b2f20c5ff13d6f1a4",
+  "normalized_cue_sha256": "b403529809a49a4f9e624fbc30bc8795f0e7729c4da7cfed21efc307bef485a7",
+  "tracks": [
+    {
+      "file": "Xak (Japan) (Track 01).bin",
+      "bytes": 7914480,
+      "source_sha256": "05829dad0b06bff50854fb9d2bf148051f87a77ab4f3970cd3339bc546714036",
+      "patched_sha256": "05829dad0b06bff50854fb9d2bf148051f87a77ab4f3970cd3339bc546714036"
+    },
+    {
+      "file": "Xak (Japan) (Track 02).bin",
+      "bytes": 1827504,
+      "source_sha256": "d952266c7a950b023ef5efcbfcf3c469131f0108f21bd90662f70524ff1fa624",
+      "patched_sha256": "fec13cf05866da0182a85964a26054c46404c8bdea787766ce9ad6a1a07a4496",
+      "patch": "Xak-English-Track02.xdelta",
+      "patch_sha256": "882b493fe675ec39df7f44e82019c85f0e49726fc1f213659c25eceed2a65518"
+    },
+    {
+      "file": "Xak (Japan) (Track 03).bin",
+      "bytes": 15280944,
+      "source_sha256": "a70394c2ee0efd2e73aeed819f9512396a79290b8064111c00bf84b02121f166",
+      "patched_sha256": "a70394c2ee0efd2e73aeed819f9512396a79290b8064111c00bf84b02121f166"
+    },
+    {
+      "file": "Xak (Japan) (Track 04).bin",
+      "bytes": 15779568,
+      "source_sha256": "b8f8a4619b932f64c7649575c84d770239f8003749c755f3e92763cef4cef956",
+      "patched_sha256": "b8f8a4619b932f64c7649575c84d770239f8003749c755f3e92763cef4cef956"
+    },
+    {
+      "file": "Xak (Japan) (Track 05).bin",
+      "bytes": 24947664,
+      "source_sha256": "8433df96f1c3c43bf7e4edc7a72eadba329cb47efab8a8ad47d718b6617cc2f9",
+      "patched_sha256": "168d8a4ceb98f376c71c67cf779372376b61064d02c4f81d5416c0c84838dc82",
+      "patch": "Xak-English-Track05.xdelta",
+      "patch_sha256": "4d9f283bc4290c1f08155422845889ff91d9fa3fcb28969ca93f6dd69b7b4a46"
+    },
+    {
+      "file": "Xak (Japan) (Track 06).bin",
+      "bytes": 11249616,
+      "source_sha256": "69a146b3cfc3a11611903ad7909e739893453e180a9adf51ffa08c82de6f8775",
+      "patched_sha256": "69a146b3cfc3a11611903ad7909e739893453e180a9adf51ffa08c82de6f8775"
+    },
+    {
+      "file": "Xak (Japan) (Track 07).bin",
+      "bytes": 13025376,
+      "source_sha256": "5b0cd66260e4f4b4c4b60dd229afb6ac89b7ec8852d30c426c23d059a37eb454",
+      "patched_sha256": "5b0cd66260e4f4b4c4b60dd229afb6ac89b7ec8852d30c426c23d059a37eb454"
+    },
+    {
+      "file": "Xak (Japan) (Track 08).bin",
+      "bytes": 14024976,
+      "source_sha256": "b60416e67f6d05142b45a3f6c3eca493a28737d8910ea87b0defee222d4603a8",
+      "patched_sha256": "b60416e67f6d05142b45a3f6c3eca493a28737d8910ea87b0defee222d4603a8"
+    },
+    {
+      "file": "Xak (Japan) (Track 09).bin",
+      "bytes": 13862688,
+      "source_sha256": "6092f0f20bf6d19b6dc8ea6bfc94484aea6ad7713f62f346e8be1b916165489c",
+      "patched_sha256": "6092f0f20bf6d19b6dc8ea6bfc94484aea6ad7713f62f346e8be1b916165489c"
+    },
+    {
+      "file": "Xak (Japan) (Track 10).bin",
+      "bytes": 15908928,
+      "source_sha256": "5d078a910c457b14ccbd547742d6f794252fc8dd77495cc2b594f88ec56a28a0",
+      "patched_sha256": "5d078a910c457b14ccbd547742d6f794252fc8dd77495cc2b594f88ec56a28a0"
+    },
+    {
+      "file": "Xak (Japan) (Track 11).bin",
+      "bytes": 38438736,
+      "source_sha256": "2dafab00e0c13619bdfe18fe8665e5c2314b97b4be15fa492d8a0acb8a84ecae",
+      "patched_sha256": "2dafab00e0c13619bdfe18fe8665e5c2314b97b4be15fa492d8a0acb8a84ecae"
+    },
+    {
+      "file": "Xak (Japan) (Track 12).bin",
+      "bytes": 21316176,
+      "source_sha256": "13b9e3344a7b3a22599845204035720f25653c7fa5bca14211281264ba1ebfe6",
+      "patched_sha256": "13b9e3344a7b3a22599845204035720f25653c7fa5bca14211281264ba1ebfe6"
+    },
+    {
+      "file": "Xak (Japan) (Track 13).bin",
+      "bytes": 21972384,
+      "source_sha256": "1a49bc6b0518b30c34c88eed57067de6fbc8dd1c1e8d8f99d43b18655fea9834",
+      "patched_sha256": "1a49bc6b0518b30c34c88eed57067de6fbc8dd1c1e8d8f99d43b18655fea9834"
+    },
+    {
+      "file": "Xak (Japan) (Track 14).bin",
+      "bytes": 20949264,
+      "source_sha256": "436632887a21253af6dd0398ef57f5a790b9366ee3b55d7c626b2f2566afa443",
+      "patched_sha256": "436632887a21253af6dd0398ef57f5a790b9366ee3b55d7c626b2f2566afa443"
+    },
+    {
+      "file": "Xak (Japan) (Track 15).bin",
+      "bytes": 21807744,
+      "source_sha256": "c09c87ff73da448609a7cb71b12ba65b630af56887d29d31c96e7e7798da6d8c",
+      "patched_sha256": "c09c87ff73da448609a7cb71b12ba65b630af56887d29d31c96e7e7798da6d8c"
+    },
+    {
+      "file": "Xak (Japan) (Track 16).bin",
+      "bytes": 20906928,
+      "source_sha256": "cca28ed0585b047aa0ad4d8175bcfe47ba34412892c5e2ec2ba4fd8fa914e690",
+      "patched_sha256": "cca28ed0585b047aa0ad4d8175bcfe47ba34412892c5e2ec2ba4fd8fa914e690"
+    },
+    {
+      "file": "Xak (Japan) (Track 17).bin",
+      "bytes": 22546272,
+      "source_sha256": "e6a670981ca12df299e1f2f45c6c5d6dfbddc07cb3e755e915a6e8a02a592cfc",
+      "patched_sha256": "e6a670981ca12df299e1f2f45c6c5d6dfbddc07cb3e755e915a6e8a02a592cfc"
+    },
+    {
+      "file": "Xak (Japan) (Track 18).bin",
+      "bytes": 31408608,
+      "source_sha256": "97d123283848ba9eb8d7df373abf85e7eb17af83badf01041dce508674b8fe08",
+      "patched_sha256": "97d123283848ba9eb8d7df373abf85e7eb17af83badf01041dce508674b8fe08"
+    },
+    {
+      "file": "Xak (Japan) (Track 19).bin",
+      "bytes": 22562736,
+      "source_sha256": "13b8f90ff58373af65a6bb7becaabca60870fc13f408209f1f55f2babee9204a",
+      "patched_sha256": "13b8f90ff58373af65a6bb7becaabca60870fc13f408209f1f55f2babee9204a"
+    },
+    {
+      "file": "Xak (Japan) (Track 20).bin",
+      "bytes": 21316176,
+      "source_sha256": "3dda58b0eaca3d9ee16133eb71dcb77633fd84d32be706c14f59762ea4e99c3f",
+      "patched_sha256": "3dda58b0eaca3d9ee16133eb71dcb77633fd84d32be706c14f59762ea4e99c3f"
+    },
+    {
+      "file": "Xak (Japan) (Track 21).bin",
+      "bytes": 10616928,
+      "source_sha256": "d4142512fc30bfa811e62f1a08c5dc942ae50fc5be39eb007f26c219efd4fcd2",
+      "patched_sha256": "d4142512fc30bfa811e62f1a08c5dc942ae50fc5be39eb007f26c219efd4fcd2"
+    },
+    {
+      "file": "Xak (Japan) (Track 22).bin",
+      "bytes": 20678784,
+      "source_sha256": "17039dd44fb8c4892f14be8823739076679e910e0b84ba7c118efce74848613c",
+      "patched_sha256": "17039dd44fb8c4892f14be8823739076679e910e0b84ba7c118efce74848613c"
+    },
+    {
+      "file": "Xak (Japan) (Track 23).bin",
+      "bytes": 21480816,
+      "source_sha256": "2254aca4836c0815a509528098ccf02b8dd837905143999952981788fff08ed1",
+      "patched_sha256": "2254aca4836c0815a509528098ccf02b8dd837905143999952981788fff08ed1"
+    },
+    {
+      "file": "Xak (Japan) (Track 24).bin",
+      "bytes": 20906928,
+      "source_sha256": "3eeece417906fc34cbcc059aa5845cf8c161f126bb87d043a18abf14c454d810",
+      "patched_sha256": "3eeece417906fc34cbcc059aa5845cf8c161f126bb87d043a18abf14c454d810"
+    },
+    {
+      "file": "Xak (Japan) (Track 25).bin",
+      "bytes": 21645456,
+      "source_sha256": "de9652018261d77853b56068105fe3aec029eb0a879f32d63fd753289e887005",
+      "patched_sha256": "de9652018261d77853b56068105fe3aec029eb0a879f32d63fd753289e887005"
+    },
+    {
+      "file": "Xak (Japan) (Track 26).bin",
+      "bytes": 32130672,
+      "source_sha256": "8e532efa7b8e34562ee692dc4f057683e908a21a3d6aa0c0ddb4c3de6fb77450",
+      "patched_sha256": "8e532efa7b8e34562ee692dc4f057683e908a21a3d6aa0c0ddb4c3de6fb77450"
+    },
+    {
+      "file": "Xak (Japan) (Track 27).bin",
+      "bytes": 21005712,
+      "source_sha256": "c3b9aac1972828e98cb828e195a0ed7197b9ac6cb0e18965e189efdacaf3dffb",
+      "patched_sha256": "c3b9aac1972828e98cb828e195a0ed7197b9ac6cb0e18965e189efdacaf3dffb"
+    },
+    {
+      "file": "Xak (Japan) (Track 28).bin",
+      "bytes": 20006112,
+      "source_sha256": "b13d94e81e782ffb864e8b9b08e4cf11a66f0487dcacb83259ca4fbc2fcd6bb6",
+      "patched_sha256": "b13d94e81e782ffb864e8b9b08e4cf11a66f0487dcacb83259ca4fbc2fcd6bb6"
+    },
+    {
+      "file": "Xak (Japan) (Track 29).bin",
+      "bytes": 19302864,
+      "source_sha256": "3f83fd8729dfa6f56019262f5130a66302a6f7261612433244c5214836664ecc",
+      "patched_sha256": "3f83fd8729dfa6f56019262f5130a66302a6f7261612433244c5214836664ecc"
+    }
+  ]
+}
