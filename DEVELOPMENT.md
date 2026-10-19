@@ -36,13 +36,17 @@ These scenes are not ordinary modern video files with an external subtitle track
 
 English captions are drawn by code running inside the game. Timing is tied to the relevant scene/playback sequence, with explicit cleanup at transitions and skip boundaries. Some longer passages require reading holds while retaining the original speech timing. Graphic text is replaced where appropriate or accompanied by a caption when retaining the original artwork better preserves its style.
 
-Subtitle updates must also avoid overwriting graphics while they are still being displayed. The work included staging tile updates, coordinating palette and scroll changes, and adjusting display handoffs so a caption update does not briefly expose another portion of the image.
+Subtitle updates must also avoid overwriting graphics while they are still being displayed. The cinematic correction was rebuilt from the Japanese scene data, with tile/palette ownership and native scene transitions checked separately from caption text. Staged updates and corrected display handoffs prevent the transient wrong pixels and displaced picture fragments observed in the earlier release, while retaining the original Japanese audio.
 
 ## Backup-memory access has its own display handoff
 
-The save/load display issue involved the BIOS as well as the game. Backup-memory routines poll and acknowledge VBlank, so the game can miss its usual scroll initialization when execution returns. During that access, the BIOS scroll can also expose a normally hidden row of the background tilemap.
+The save/load fault had two causes. During backup-memory access, the BIOS masks interrupts and acknowledges VBlank. The game normally uses raster interrupts to display different parts of its background tilemap in separate screen bands. Without those updates, a menu can expose displaced or duplicated sections of the HUD. Repairing a scroll register after the BIOS returns is too late to prevent the affected frames.
 
-The correction aligns the entry handoff, temporarily saves and blanks that row during the BIOS call, then restores its exact contents and the normal scroll state on return. It preserves the BIOS result and the caller's bank and register state. The shared native UI paths cover boot loading, death loading and in-game backup menus without changing the save format.
+The final correction retains the original BIOS directory, save-data and checksum instructions. It copies the needed routines from the running System Card into temporary RAM for each operation, adjusts their addresses and provides a display-safe exit. The disc patch contains no BIOS ROM bytes. BRAM access keeps its original slow CPU timing, while a restricted display-only interrupt path runs the screen splits at the normal display speed. The interrupted bank mapping is restored independently of the BIOS's own bank changes, and input/music scratch work is deferred during the operation.
+
+All 72 native UI module copies use the corrected paths, including deletion before a save overwrite. The original save format and filenames are retained. A separate issue on menu exit came from queued sprite and palette uploads running before the top-band scroll setup. Moving that existing setup ahead of the uploads prevents the brief duplicated strip when returning to gameplay.
+
+The correction was checked against a control that reproduces the displaced HUD, as well as native saves, overwrites, cancellation, error handling, fresh-boot loading and loading after death. The resulting build was then confirmed on the PC Engine GT and SuperGrafx with a Turbo EverDrive Pro. The specific System Card BIOS layout is documented in the README.
 
 ## Disc layout and patch distribution
 

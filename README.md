@@ -6,9 +6,11 @@ English dialogue, menus and cinematic subtitles for the Japanese PC Engine Super
 
 ## Download
 
-[Download the patch package](https://github.com/randomprojectsfactory/xak-i-ii-pce-english/releases/latest/download/Xak-I-II-English-2026.10.19.zip)
+[Download the patch package](https://github.com/randomprojectsfactory/xak-i-ii-pce-english/releases/latest/download/Xak-I-II-English-2026.10.19.1.zip)
 
-Release: **2026.10.19**. The download contains two xdelta patches, a hash-checking patcher and documentation. **No BIN, CUE, ISO, BIOS, audio files or game disk images are distributed.**
+Release: **2026.10.19.1**. The download contains two xdelta patches, a hash-checking patcher and documentation. **No BIN, CUE, ISO, BIOS, audio files or game disk images are distributed.**
+
+This is the completed localisation release, including the corrected cinematic graphics and save/load display transitions. The current build has been confirmed on a PC Engine GT and SuperGrafx using a Turbo EverDrive Pro.
 
 ## Features
 
@@ -37,6 +39,16 @@ dd778ff76546bb84f023c359bccac585dd404e5338945d6b2f20c5ff13d6f1a4
 ```
 
 That combined value identifies this ordered raw-track set; it is **not an ISO-file hash**. The manifest provides each individual track's hash, so no combined image needs to be created. Keep all original tracks, including pregap data. Do not apply these patches to an already translated image, a previous release, a merged BIN or a converted ISO.
+
+## System Card compatibility
+
+The save/load display correction uses the System Card 3 BIOS layout. The BIOS used for emulator and Turbo EverDrive Pro hardware validation has this SHA-256:
+
+```text
+e11527b3b96ce112a037138988ca72fd117a6b0779c2480d9e03eaebece3d9ce
+```
+
+Other BIOS revisions are unverified. Supply your own BIOS where required by your emulator or device; none is included in this package.
 
 ## Apply the patch
 
