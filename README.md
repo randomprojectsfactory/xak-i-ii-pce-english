@@ -6,9 +6,9 @@ English dialogue, menus and cinematic subtitles for the Japanese PC Engine Super
 
 ## Download
 
-[Download the patch package](https://github.com/randomprojectsfactory/xak-i-ii-pce-english/releases/latest/download/Xak-I-II-English-2026.10.19.1.zip)
+[Download the patch package](https://github.com/randomprojectsfactory/xak-i-ii-pce-english/releases/latest/download/Xak-I-II-English-2026.10.19.2.zip)
 
-Release: **2026.10.19.1**. The download contains two xdelta patches, a hash-checking patcher and documentation. **No BIN, CUE, ISO, BIOS, audio files or game disk images are distributed.**
+Release: **2026.10.19.2**. The download contains two xdelta patches, a hash-checking patcher and documentation. **No BIN, CUE, ISO, BIOS, audio files or game disk images are distributed.**
 
 This is the completed localisation release, including the corrected cinematic graphics and save/load display transitions. The current build has been confirmed on a PC Engine GT and SuperGrafx using a Turbo EverDrive Pro.
 

@@ -1,5 +1,9 @@
 # Changes
 
+## 2026.10.19.2
+
+- Standardise item-acquisition messages as “Item name received.”
+
 ## 2026.10.19.1
 
 - Correct cinematic subtitle graphics corruption, including the opening, while retaining Japanese audio.

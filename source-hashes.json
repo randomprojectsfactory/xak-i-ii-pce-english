@@ -1,5 +1,5 @@
 {
-  "release": "2026.10.19.1",
+  "release": "2026.10.19.2",
   "game": "Xak I & II",
   "platform": "PC Engine Super CD-ROM2",
   "source_format": "29 separate raw2352-byte BIN tracks with an existing CUE",
@@ -36,9 +36,9 @@
       "file": "Xak (Japan) (Track 05).bin",
       "bytes": 24947664,
       "source_sha256": "8433df96f1c3c43bf7e4edc7a72eadba329cb47efab8a8ad47d718b6617cc2f9",
-      "patched_sha256": "604b8996cb2cb9ae46e50083e0a72774d8f7188c3e23cfd018c605f8192d4882",
+      "patched_sha256": "f7574d659740b30ea637874680e1df22fa20ba015ded19b9400868020fad07c1",
       "patch": "Xak-English-Track05.xdelta",
-      "patch_sha256": "b75ceaa98f5f8e85fc5458659846b1a94af7f25de000b9ad1349263ea35cf8ef"
+      "patch_sha256": "ae9b6f351872ac2ecf84154c4f05614af903f2ff2252ef078e8368166d2c4efe"
     },
     {
       "file": "Xak (Japan) (Track 06).bin",
