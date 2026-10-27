@@ -30,6 +30,11 @@ The PCE Japanese dialogue and audio control the meaning where the versions diffe
 - **RIOT / Telenet Japan** — the PC Engine CD edition.
 - The original development, art, music, voice and production teams, whose credits remain part of the game.
 
+## Bug reports
+
+- **jducreux** (GitHub: **j-ducreux**) — Xak II text-corruption report, screenshots and saves.
+- **Ryusennin** — subtitle overscan report and additional reproduction checks.
+
 ## Tools
 
 [xdelta3](https://github.com/jmacd/xdelta) by Joshua MacDonald and contributors provides the binary patch format and patch application tool. The download does not bundle xdelta3 or an emulator.

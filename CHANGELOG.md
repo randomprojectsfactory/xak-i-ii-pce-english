@@ -1,5 +1,12 @@
 # Changes
 
+## 2026.10.27.1
+
+- Fix corrupted English text in the Xak II portion, including menus, shop descriptions and system messages.
+- Position subtitles within the intended 224-line visible area to prevent overscan clipping.
+
+Thanks to **jducreux** (GitHub: **j-ducreux**) for reporting the Xak II text issue and providing screenshots and saves, and **Ryusennin** for reporting the subtitle overscan issue.
+
 ## 2026.10.19.3
 
 - Translate equipment-enchantment descriptions and fee confirmations across both games.

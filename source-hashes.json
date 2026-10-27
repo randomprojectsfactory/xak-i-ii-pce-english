@@ -1,5 +1,5 @@
 {
-  "release": "2026.10.19.3",
+  "release": "2026.10.27.1",
   "game": "Xak I & II",
   "platform": "PC Engine Super CD-ROM2",
   "source_format": "29 separate raw2352-byte BIN tracks with an existing CUE",
@@ -16,9 +16,9 @@
       "file": "Xak (Japan) (Track 02).bin",
       "bytes": 1827504,
       "source_sha256": "d952266c7a950b023ef5efcbfcf3c469131f0108f21bd90662f70524ff1fa624",
-      "patched_sha256": "00236a07b3c249628902ed014f49644a83bf0f9788631330da0bff636d9b2d30",
+      "patched_sha256": "70d7059f336506e27bc8fb0d76fc99099592ba34f6f8082e45d866bc8be3a971",
       "patch": "Xak-English-Track02.xdelta",
-      "patch_sha256": "80f2b453639b72ee3092d8b81ced6aec903e8f725d1f4a4e3b8a8ce6b9ebe357"
+      "patch_sha256": "415d84e855d42d3a319861509094981652dd2508249a1544e6252b605e3cd483"
     },
     {
       "file": "Xak (Japan) (Track 03).bin",
@@ -36,9 +36,9 @@
       "file": "Xak (Japan) (Track 05).bin",
       "bytes": 24947664,
       "source_sha256": "8433df96f1c3c43bf7e4edc7a72eadba329cb47efab8a8ad47d718b6617cc2f9",
-      "patched_sha256": "9e105af68480c42901212754c1a0284d593d4445adbbc42b3cab6478050c489b",
+      "patched_sha256": "370013926815083227f0747eec7cf89f48b8aa30d9567ebb91f4b2c9a74be238",
       "patch": "Xak-English-Track05.xdelta",
-      "patch_sha256": "bfbb6b1f6ec046344fc4d22791c7b0c8c1a74c2d2267b0bc26fa5b5f9d4392bb"
+      "patch_sha256": "49b2882ca2358e366fc6a5a0434492135b79883af8ec57493d73e7dcc0a22e61"
     },
     {
       "file": "Xak (Japan) (Track 06).bin",
