@@ -1,4 +1,4 @@
-# Non-Commercial / No AI Training License — Version 1.0 (Custom; Verified Rightsholder Exception)
+# Attribution / Non-Commercial / Share-Alike / No AI Training License — Version 1.1 (Custom; Verified Rightsholder Exception)
 
 Project: xak-i-ii-pce-english
 Copyright © 2026 the respective authors of original contributions to this project.
@@ -15,6 +15,18 @@ All rights reserved except for the limited permissions expressly stated below.
 Subject to the restrictions below, the contributors grant a non-exclusive, worldwide, royalty-free copyright license to download, reproduce, use, and modify their Licensed Contributions for personal, educational, preservation, and other genuinely non-commercial purposes. You may redistribute unmodified or modified Licensed Contributions **without charge** for non-commercial purposes, provided you: (a) preserve this license and all credits and third-party notices; (b) identify any changes; (c) do not suggest endorsement by the contributors or underlying rightsholders; and (d) independently possess all permissions required for any third-party material included with a distribution.
 
 This section grants **no permission** to distribute a complete game, disc image, ROM, BIOS, third-party translation, or firmware that you are not independently authorized to distribute.
+
+## 2.1. Attribution
+
+When sharing Licensed Contributions or adaptations of them, retain the supplied author names or pseudonyms, copyright notices, project credit, license notice, warranty disclaimer and third-party notices. Include the original repository URL and a copy of this license, and clearly identify your modifications without implying endorsement. Attribution may be supplied in an accompanying README, credits file or other location reasonably accessible to recipients.
+
+## 2.2. Share-alike for shared adaptations
+
+If you share an adaptation of Licensed Contributions, you must license the copyright and similar rights you own in your modifications to those contributions under this same custom license, Version 1.1, and include its complete text. Identify the original project and the authors of your modifications. Recipients must receive the same permissions and remain subject to the same attribution, non-commercial, share-alike and AI-training conditions. You must not offer the original Licensed Contributions under an alternative license or impose additional legal or technological restrictions that prevent recipients from exercising the permissions this license grants.
+
+For this section, an adaptation means a modification, translation, arrangement or other alteration of Licensed Contributions requiring permission under applicable copyright law. Merely placing an independent work alongside Licensed Contributions in a collection does not require licensing that independent work under these terms. Third-party games, existing translations, firmware and other excluded material remain outside this requirement; this section grants no authority to relicense them. Private modifications need not be published, and this section does not require disclosure of source code.
+
+Commercial permission under Section 3.1 alone does not waive attribution or share-alike. Any waiver must be expressly agreed in writing by the owners of the rights affected or their authorized representative. It does not waive Section 4.
 
 ## 3. Prohibition on sale or commercial exploitation
 
