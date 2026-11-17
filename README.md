@@ -94,7 +94,9 @@ Original games: Microcabin. PC Engine edition: RIOT / Telenet Japan. Existing En
 
 ## License and third-party rights
 
-Original contributions are available under the [custom Non-Commercial / No AI Training License](LICENSE.MD). Free non-commercial use and sharing are permitted subject to its conditions. **No sale, resale, paid bundling or other commercial exploitation is permitted except for a verified underlying intellectual-property rightsholder under Section 3.1, after proof and written confirmation.** Owning a game or cartridge does not qualify.
+Original contributions are available under the [custom Attribution / Non-Commercial / Share-Alike / No AI Training License v1.1](LICENSE.MD). Free non-commercial use and sharing are permitted subject to its conditions. **No sale, resale, paid bundling or other commercial exploitation is permitted except for a verified underlying intellectual-property rightsholder under Section 3.1, after proof and written confirmation.** Owning a game or cartridge does not qualify.
+
+**Attribution and share-alike are required:** retain credits, identify changes and license shared adaptations of the covered contributions under the same custom license. This does not relicense third-party game or translation material.
 
 **AI/LLM training, fine-tuning, distillation and model evaluation or improvement require separate explicit written permission.** The commercial exception does not grant AI-training rights.
 
