@@ -6,11 +6,11 @@ English dialogue, menus and cinematic subtitles for the Japanese PC Engine Super
 
 ## Download
 
-[Download the patch package](https://github.com/randomprojectsfactory/xak-i-ii-pce-english/releases/latest/download/Xak-I-II-English-2026.10.27.1.zip)
+[Download the final patch](https://github.com/randomprojectsfactory/xak-i-ii-pce-english/releases/download/v2026.11.17/Xak-I-II-English-Final.zip)
 
-Release: **2026.10.27.1**. The download contains two xdelta patches, a hash-checking patcher and documentation. **No BIN, CUE, ISO, BIOS, audio files or game disk images are distributed.**
+**Final release · 2026.11.17.** Apply this cumulative patch directly to the original Japanese disc. It includes all previous fixes and corrects a brief line of stray pixels during Pixie’s appearance in **BEGINNING**. The fix was confirmed on MiSTer MM2. See [issue #6](https://github.com/randomprojectsfactory/xak-i-ii-pce-english/issues/6).
 
-This update corrects English text rendering in the Xak II portion and positions cinematic subtitles within the intended 224-line visible area. The original Japanese audio, disc layout and save format are retained.
+The package contains two xdelta patches, a hash-checking patcher and documentation. Earlier versioned releases remain available for anyone with a saved download link.
 
 ## Features
 
@@ -40,15 +40,15 @@ dd778ff76546bb84f023c359bccac585dd404e5338945d6b2f20c5ff13d6f1a4
 
 That combined value identifies this ordered raw-track set; it is **not an ISO-file hash**. The manifest provides each individual track's hash, so no combined image needs to be created. Keep all original tracks, including pregap data. Do not apply these patches to an already translated image, a previous release, a merged BIN or a converted ISO.
 
-## System Card compatibility
+## Required System Card BIOS
 
-The save/load display correction uses the System Card 3 BIOS layout. The BIOS used for emulator and Turbo EverDrive Pro hardware validation has this SHA-256:
+Use the **unmodified Japanese Super CD-ROM System Card 3.0** (262,144 bytes) for the supported configuration. Its SHA-256 is:
 
 ```text
 e11527b3b96ce112a037138988ca72fd117a6b0779c2480d9e03eaebece3d9ce
 ```
 
-Other BIOS revisions are unverified. Supply your own BIOS where required by your emulator or device; none is included in this package.
+Use your own BIOS dump. The expected filename is `syscard3.pce` on Turbo EverDrive Pro or `cd_bios.rom` on MiSTer. Other BIOS revisions or modified dumps may fail or behave differently. The ZIP contains the checksum and excludes BIOS and disc images.
 
 ## Apply the patch
 

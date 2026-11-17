@@ -1,5 +1,12 @@
 # Changes
 
+## 2026.11.17 (Final)
+
+- Fix stray pixels below the subtitle during Pixie’s appearance in **BEGINNING**, preserving the picture, subtitle timing and original audio.
+- Document the verified Japanese System Card 3.0 BIOS and its SHA-256.
+
+Confirmed on MiSTer MM2. Thanks to **Areku-The-OF** for reporting the issue and **mario-64** for reporting it on additional hardware. [Issue #6](https://github.com/randomprojectsfactory/xak-i-ii-pce-english/issues/6)
+
 ## 2026.10.27.1
 
 - Fix corrupted English text in the Xak II portion, including menus, shop descriptions and system messages.

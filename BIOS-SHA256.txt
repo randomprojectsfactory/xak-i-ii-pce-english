@@ -1,0 +1,5 @@
+Japanese Super CD-ROM System Card 3.0 (unmodified, 262144 bytes)
+
+e11527b3b96ce112a037138988ca72fd117a6b0779c2480d9e03eaebece3d9ce  syscard3.pce
+
+MiSTer uses the same bytes in cd_bios.rom. Other BIOS revisions or modified dumps may fail or behave differently.
